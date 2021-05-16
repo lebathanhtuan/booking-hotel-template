@@ -1,0 +1,170 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "tuan@gmail.com",
+      "password": "1234",
+      "name": "Tuan",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "tuan1@gmail.com",
+      "password": "4321",
+      "name": "Tuan 1",
+      "role": "user"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "Mường Thanh",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Minh Toàn",
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Khách sạn A",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Khách sạn B",
+      "locationId": 2
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Đà Nẵng"
+    },
+    {
+      "id": 2,
+      "name": "Hà Nội"
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "hotelId": 1,
+      "title": "Phòng thường",
+      "price": 350000
+    },
+    {
+      "id": 2,
+      "hotelId": 1,
+      "title": "Phòng Vip",
+      "price": 420000
+    },
+    {
+      "id": 3,
+      "hotelId": 1,
+      "title": "Phòng đặt biệt",
+      "price": 500000
+    },
+    {
+      "id": 4,
+      "hotelId": 2,
+      "title": "Phòng thường",
+      "price": 400000
+    },
+    {
+      "id": 5,
+      "hotelId": 2,
+      "title": "Phòng Vip",
+      "price": 550000
+    },
+    {
+      "id": 6,
+      "hotelId": 2,
+      "title": "Phòng đặt biệt",
+      "price": 700000
+    },
+    {
+      "id": 7,
+      "hotelId": 3,
+      "title": "Phòng thường",
+      "price": 400000
+    },
+    {
+      "id": 8,
+      "hotelId": 3,
+      "title": "Phòng gia đình",
+      "price": 550000
+    },
+    {
+      "id": 9,
+      "hotelId": 4,
+      "title": "Phòng thường",
+      "price": 400000
+    },
+    {
+      "id": 10,
+      "hotelId": 4,
+      "title": "Phòng gia đình",
+      "price": 550000
+    }
+  ],
+  "bookingRooms": [
+    {
+      "id": 1,
+      "userId": 1,
+      "roomId": 6,
+      "hotelId": 2,
+      "startDate": "2021/05/16",
+      "endDate": "2021/05/17"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "roomId": 5,
+      "hotelId": 2,
+      "startDate": "2021/05/17",
+      "endDate": "2021/05/20"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "roomId": 7,
+      "hotelId": 3,
+      "startDate": "2021/05/16",
+      "endDate": "2021/05/18"
+    },
+    {
+      "userId": 2,
+      "hotelId": 4,
+      "roomId": 10,
+      "startDate": "2021/05/26",
+      "endDate": "2021/05/27",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "hotelId": 4,
+      "roomId": 10,
+      "startDate": "2021/05/28",
+      "endDate": "2021/05/31",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "hotelId": 4,
+      "roomId": 10,
+      "startDate": "2021/05/27",
+      "endDate": "2021/05/28",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "hotelId": 4,
+      "roomId": 10,
+      "startDate": "2021/05/27",
+      "endDate": "2021/05/28",
+      "id": 8
+    }
+  ]
+}
